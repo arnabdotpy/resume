@@ -1,0 +1,202 @@
+%------------------------
+% Arnab's Resume
+% Author : Arnab Roy
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section format
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[2]{
+  \item\small{\textbf{#1}{: #2}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4}
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\LARGE Arnab Roy} & \href{mailto:mr.roy.arnab@gmail.com}{mr.roy.arnab@gmail.com}\\
+Phone: +91 9394255756 & 
+\href{https://www.linkedin.com/in/arnabroy25/}{\underline{LinkedIn}} \quad
+\href{http://github.com/arnabdotpy/}{\underline{GitHub}}
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+
+\section{Experience}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Physics Wallah}{Noida, India}
+{Associate Software Engineer, Innovation}{2023 -- Present}
+
+\resumeItemListStart
+
+\resumeItem{Clicker App}
+{Engineered an interactive classroom response system integrating ESP8266 hardware with Android devices to enable real-time student participation; contributed to securing deployment with the Andhra Pradesh Government.}
+
+\resumeItem{PiBook Appstore}
+{Contributed to the development of the App Store for PiBook, a low-cost Android laptop developed at PW Innovations to make laptops affordable for students.}
+
+\resumeItem{PW Drona App}
+{Built and scaled the PW Drona App (Android \& iOS) to improve teacher productivity; the application is live on the Play Store and App Store.}
+
+\resumeItem{GATE Rank Predictor}
+{Built a rank prediction system that programmatically scraped student response sheets, parsed and evaluated answers against official answer keys, and applied scoring algorithms to compute estimated ranks.}
+
+\resumeItem{Engineering \& DevOps}
+{Built and maintained multiple production-grade web and mobile applications while managing DevOps infrastructure, designing CI/CD pipelines, and mentoring developers across the engineering team..}
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+
+\section{Projects}
+
+\resumeSubHeadingListStart
+
+\resumeSubItem{Younity}
+{Developed a smart classroom platform for YouTube live classes enabling students to poll, ask doubts, and interact during lectures while teachers monitor real-time insights through an Electron-based dashboard displayed on MaxHub boards.}
+
+\resumeSubItem{VNC Android Remote}
+{Built a mobile-based virtual remote application allowing users to control TVs via smartphones using the VNC protocol for real-time screen interaction and command transmission.}
+
+\resumeSubItem{Pixel Art Display}
+{Engineered an ESP32-powered 16x16 LED pixel display with BLE communication, developing embedded firmware and a mobile pipeline to stream 2D pixel art to the device in real time.}
+
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------------
+
+\section{Achievements}
+
+\begin{itemize}
+\item Star Performer of the Month (July 2023), Physics Wallah for exceptional engineering contributions and dedication in product development.
+\item Runner Up - Hacked By PW (Internal Hackathon at Physics Wallah) Won an international trip to Thailand.
+\end{itemize}
+
+%-----------LEADERSHIP-----------------
+
+\section{Leadership \& Activities}
+
+\resumeSubHeadingListStart
+
+\resumeSubItem{Minister of Digital Infrastructure – Student Cabinet, Bennett University}
+{Leading technology initiatives and managing digital infrastructure for the Student Cabinet. (Aug 2025 -- Present)}
+
+\vspace{2pt}
+
+\resumeSubItem{Chief Technology Officer – Computer Society of India, Bennett University}
+{Led the technical team and infrastructure for the CSI student chapter and supported development of technical platforms and events. (Aug 2024 -- May 2025)}
+
+\vspace{2pt}
+
+\resumeSubItem{Lead Organizer – Hackaccino Hackathon, Bennett University}
+{Co-led a 5-member team to organize a university hackathon and built an automated registration and event tracking platform to streamline participant management. (2024 -- 2025)}
+
+\vspace{2pt}
+
+\resumeSubItem{Community Manager – Creator Communities}
+{Built and managed creator communities including GetSetFly Science (9.7M+ subscribers) and Tharun Speaks (900K+ subscribers). (2023)}
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+
+\section{Education}
+
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Bennett University}{India}
+{B.Tech in Computer Science Engineering | CGPA: 8.30/10}{2023 -- Present}
+
+\resumeSubheading
+{Maharishi Vidya Mandir}{India}
+{Class XII | 85.4\%}{2023}
+
+\resumeSubheading
+{Rowlands Memorial High School}{India}
+{Class X | 85.5\%}{2021}
+
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+
+\section{Technical Skills}
+
+\resumeSubHeadingListStart
+
+\resumeSubItem{Languages}{JavaScript, TypeScript, Python, C++, Java, HTML, CSS}
+
+\resumeSubItem{Frameworks \& Libraries}{React, React Native, Express, NestJS, Flask, FastAPI, TailwindCSS, Zustand, Socket.IO, Mongoose, Electron}
+
+\resumeSubItem{Databases}{MongoDB, PostgreSQL, MySQL, SQLite, Redis}
+
+\resumeSubItem{Embedded \& IoT}{ESP8266, ESP32, Arduino IDE, PlatformIO, BLE (Bluetooth Low Energy), MQTT}
+
+\resumeSubItem{DevOps \& Infrastructure}{Linux, Git, GitHub, GitLab, Docker, Nginx, Reverse Proxies, SSL (Let's Encrypt), CI/CD Pipelines, Coolify, Cloudflare, Google Cloud Platform}
+
+\resumeSubItem{Platforms \& Tools}{Firebase, Supabase, Appwrite, Play Store Deployment, App Store Deployment, Figma}
+
+\resumeSubHeadingListEnd
+
+\end{document}
