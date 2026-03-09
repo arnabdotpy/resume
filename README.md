@@ -5,6 +5,16 @@ The resume is built using a **clean and minimal template** designed for software
 
 ---
 
+## 📄 Download Resume
+
+<p align="center">
+  <a href="Arnab-Resume.pdf">
+    <img src="https://img.shields.io/badge/Download-Arnab%20Resume-blue?style=for-the-badge">
+  </a>
+</p>
+
+---
+
 ## 📄 Resume Preview
 
 <p align="center">
