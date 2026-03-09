@@ -6,6 +6,9 @@ on:
       - "resume.tex"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,13 +25,16 @@ jobs:
       - name: Compile LaTeX
         run: pdflatex resume.tex
 
-      - name: Convert PDF to PNG
-        run: pdftoppm -png -singlefile resume.pdf resume
+      - name: Rename PDF
+        run: mv resume.pdf Arnab-Roy-Resume.pdf
 
-      - name: Commit PNG preview
+      - name: Convert PDF to PNG
+        run: pdftoppm -png -singlefile Arnab-Roy-Resume.pdf resume
+
+      - name: Commit updated files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add resume.png
-          git commit -m "Update resume preview" || echo "No changes"
+          git add resume.png Arnab-Roy-Resume.pdf
+          git commit -m "Update resume preview and PDF" || echo "No changes"
           git push
