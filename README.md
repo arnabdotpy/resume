@@ -8,8 +8,8 @@ The resume is built using a **clean and minimal template** designed for software
 ## 📄 Download Resume
 
 <p align="center">
-  <a href="Arnab-Resume.pdf">
-    <img src="https://img.shields.io/badge/Download-Arnab%20Resume-blue?style=for-the-badge">
+  <a href="Arnab-Roy-Resume.pdf" download>
+    <img src="https://img.shields.io/badge/Download-Arnab%20Roy%20Resume-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
   </a>
 </p>
 
