@@ -9,7 +9,7 @@ The resume is built using a **clean and minimal template** designed for software
 
 <p align="center">
   <a href="Arnab-Roy-Resume.pdf" download>
-    <img src="https://img.shields.io/badge/Download-Arnab%20Roy%20Resume-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
+    <img src="https://img.shields.io/badge/Download-Arnab's%20Resume-blue?style=for-the-badge&logo=adobeacrobatreader&logoColor=white">
   </a>
 </p>
 
